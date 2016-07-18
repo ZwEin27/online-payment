@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master/MasterPage.Master" AutoEventWireup="true" CodeBehind="IndexMaster.master.cs" Inherits="OnlinePayment.Master.IndexMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+
+
+
+
+<!--包括二级导航栏-->
+        <div id="top-panel">
+            <div id="panel">
+                <ul>
+                    <li><a href="#" class="news">公告</a></li>
+                    <li><a href="#" class="pay_alert">缴费提醒</a></li>
+                    <li><a href="#" class="msg">消息</a></li>
+              </ul>
+            </div>
+   	  </div>
+
+
+       <!--内容包装器，包括：左边的内容面板 和 右边的侧边栏-->
+      <div id="wrapper">
+      
+            <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+
+
+
+
+             </asp:ContentPlaceHolder>
+            </div><!--end of content-->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <div id="sidebar">
+            
+            	<ul>
+                	<li><h3><a href="#" class="welcome">
+                    欢迎界面
+                    </a></h3></li>
+                </ul>
+            	
+                
+                <div class="cleaner_h10"></div>
+                
+                
+		  <ul>
+                	<li><h3><a href="#" class="house">消息中心</a></h3>
+                        <ul>
+                        	<li><a href="#" class="report">查看公共</a></li>
+                    		<li><a href="#" class="report_seo">缴费提醒</a></li>
+                            <li><a href="#" class="search">查看消息</a></li>
+                        </ul>
+                    </li>
+                    
+				</ul>       
+          </div><!--end of sidebar-->
+          
+          
+          
+          
+      </div><!--end of wrapper-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</asp:Content>

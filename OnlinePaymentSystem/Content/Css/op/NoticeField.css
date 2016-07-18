@@ -1,0 +1,11 @@
+﻿/* CSS Document */
+#main{ width:400px; margin:0 auto;text-align:left;}
+#breakNewsList a{color:#333;text-decoration:none;}
+#breakNewsList a:hover{color:#a43708; text-decoration:underline;}
+.breakNewsblock { width:100%;}
+#breakNews {padding:0 0 0px 2px; text-align:left;white-space: nowrap;}
+#breakNews .list6 {height:200px; overflow:hidden;width:100%;}
+#breakNews .list6 ol{ margin:0; padding:0; list-style:none;}
+#breakNews ol li{ padding-left:7px; width:98%; height:25px;font-size:13px; line-height:25px; border-bottom:2px solid #fff;}
+#breakNews ol li a{ display:block;width:98%;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis; overflow: hidden;}
+#breakNews .hit {width:12px; padding-top:12px;margin-left:26px;}

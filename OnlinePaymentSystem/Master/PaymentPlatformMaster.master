@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master/MasterPage.Master" AutoEventWireup="true" CodeBehind="PaymentPlatformMaster.master.cs" Inherits="OnlinePayment.Master.PaymentPlatformMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+<!--包括二级导航栏-->
+      <div id="top-panel">
+            <div id="panel">
+                <ul>
+                    <li><a href="../OP/PaymentPlatformIndex.aspx" class="news">缴费平台</a></li>
+                    <li><a href="../OP/PaymentHistoryView.aspx" class="pay_alert">缴费历史</a></li>
+                    <li><a href="../OP/OrderInfoView.aspx" class="msg">缴费订单</a></li>
+                    
+              </ul>
+            </div>
+   	  </div>
+
+
+       <!--内容包装器，包括：左边的内容面板 和 右边的侧边栏-->
+      <div id="wrapper">
+      
+            <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+
+
+
+
+             </asp:ContentPlaceHolder>
+            </div><!--end of content-->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <div id="sidebar">
+            
+            	<ul>
+                	<li><h3><a href="#" class="welcome">
+                    欢迎界面
+                    </a></h3></li>
+                </ul>
+            	
+                
+                <div class="cleaner_h10"></div>
+                
+                
+		  <ul>
+                	<li><h3><a href="#" class="house">缴费平台</a></h3>
+                        <ul>
+                        	<li><a href="#" class="report">未缴清单</a></li>
+                    		<li><a href="#" class="report_seo">已缴查询</a></li>
+                            <li><a href="#" class="search">缴费历史</a></li>
+                        </ul>
+                    </li>
+                    <li><h3><a href="#" class="folder_table">审计业务</a></h3>
+          				<ul>
+                        	<li><a href="#" class="addorder">报表</a></li>
+                          <li><a href="../OP/OPChartView.aspx" class="shipping">图表</a></li>
+                            <li><a href="#" class="invoices">邮件提醒</a></li>
+                        </ul>
+                    </li>
+                    <li><h3><a href="#" class="manage">配置</a></h3>
+          				<ul>
+                            <li><a href="#" class="manage_page">缴费基本配置</a></li>
+                            
+                        </ul>
+                    </li>
+                  
+				</ul>       
+          </div><!--end of sidebar-->
+          
+          
+          
+          
+      </div><!--end of wrapper-->
+
+
+
+
+
+
+
+
+</asp:Content>

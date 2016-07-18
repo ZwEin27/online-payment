@@ -1,0 +1,108 @@
+
+
+
+.menu {
+    float: left;
+    width: 721px;
+}
+.menu .item {
+    float: left;
+    height: 100px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-align: center;
+    width: 103px;
+}
+.menu .item .label {
+    height: 20px;
+    line-height: 20px;
+    margin-top: -25px;
+    overflow: hidden;
+}
+.menu .item a {
+    display: block;
+    height: 100%;
+    margin: -100px auto auto;
+    position: relative;
+    width: 64px;
+    z-index: 5;
+}
+.menu .item .t {
+    height: 5px;
+    margin-top: -100px;
+    overflow: hidden;
+    width: 100%;
+}
+.menu .item .l {
+    background-color: white;
+    float: left;
+    height: 5px;
+    overflow: hidden;
+    width: 5px;
+}
+.menu .item .r {
+    background-color: white;
+    float: right;
+    height: 5px;
+    overflow: hidden;
+    width: 5px;
+}
+.menu .item .b {
+    height: 5px;
+    margin-top: 90px;
+    overflow: hidden;
+    width: 100%;
+}
+.menu .item a:hover {
+    background-color: #FFFFFF;
+    /*opacity:0.3;*/
+    filter: alpha(opacity=30);//Ö§³ÖIE
+}
+.menu .item .navicon {
+    background: url("../../images/op/ppnav_menu.jpg") repeat scroll 0 0 transparent;
+    height: 100px;
+    margin: auto;
+    width: 64px;
+}
+.menu .item .icon1 {
+    background-position: -709px 0;
+}
+.menu .item .icon2 {
+    background-position: -580px 0;
+}
+.menu .item .icon3 {
+    background-position: -773px 0;
+}
+.menu .item .icon6 {
+    background-position: -516px 0;
+}
+.menu .item .icon5 {
+    background-position: -323px 0;
+}
+.menu .item .icon4 {
+    background-position: -258px 0;
+}
+.menu .item .icon7 {
+    background-position: -387px 0;
+}
+.menu .item .icon8 {
+    background-position: -644px 0;
+}
+.menu .item .icon9 {
+    background-position: -129px 0;
+}
+.menu .item .icon10 {
+    background-position: -194px 0;
+}
+.menu .item .icon11 {
+    background-position: 0 0;
+}
+.menu .item .icon12 {
+    background-position: -65px 0;
+}
+.menu .item .icon13 {
+    background-position: -837px 0;
+}
+.menu .item .icon14 {
+    background-position: -902px 0;
+}
